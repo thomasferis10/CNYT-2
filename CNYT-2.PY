@@ -76,7 +76,7 @@ def multmat(a,b):
         for k in range(n):
             r[j][k] = lc.cplxsum(lc.cplxmult(a[j][0], b[0][k]), lc.cplxmult(a[0][k],b[j][0]))
     return r
-#11. Función para calcular la "acción" de una matriz sobre un vector.
+
 
 #12. Producto interno de dos vectores
 
@@ -129,7 +129,7 @@ def vectensor(A,B):
         for k in range(nb):
             R[index] = lc.cplxmult(A[j], B[k])
             index = index + 1
-    return R
+    return r
 
 
 print("Bienvenido a su libreria de computación cuántica")
