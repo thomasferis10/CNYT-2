@@ -1,21 +1,6 @@
 #Hola, Bienvenido!
 #Primero que todo vamos a importar la libreria de python math, esta nos ayudará para hacer algunas operaciones matemáticas.
-
-def funmat(a,v):
-    m = len(a)
-    n = len(a[0])
-    print(m)
-    print(n)
-    fila = [(0, 0)] * n
-    r = [fila] * m
-    for j in range(m):
-
-        fila = [(0, 0)] * n
-        r[j] = fila
-        for k in range(n):
-            r[j][k] = lc.cplxsum(lc.cplxmult(a[j][k],v[k]),lc.cplxmult(v[k],[j][k]))
-
-    return r
+import math 
 
 #1. Adición de vectores complejos.
 
